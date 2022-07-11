@@ -1,0 +1,51 @@
+.header{
+    margin-left: 40%;
+    margin-top: -20%;
+}
+h1{
+    width: 700px;
+}
+
+.EmpList {
+    height: 400px;
+    overflow-y: scroll;
+}
+
+table {
+    border: 2px solid black;
+    margin-left: 40%;
+    margin-top: -10.3%;
+}
+
+thead {
+    background:darkslategray;
+    color:bisque;
+    font-weight: bolder;
+}
+
+
+
+tr:hover {
+    background-color: rgba(0,0,0, 1.0);
+    color: white;
+}
+
+td {
+    width: 180px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.btn-group {
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.btn-group button {
+    padding: 5px;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
